@@ -4,7 +4,7 @@ Rule 30 is a one-dimensional cellular automaton in which cell states evolve base
 Cell states evolve according to the following rules:
 
 | Neighbourhood | Denary | 'Live' Neighbours | Next State |
-| ------------- | ------ | ----------------- | ---------- |
+| ------------- | :----: | :---------------: | :--------: |
 | 000           | 0      | 0                 | 0          |
 | 001           | 1      | 1                 | 1          |
 | 010           | 2      | 1                 | 1          |
@@ -21,7 +21,5 @@ Rule 30 takes its name from the pattern produced in the 'Next State' from the ta
 This program implements a simplified version of the above ruleset, checking only if: 
 1. There is only 1 live neighbour, or
 2. There are 2 live neighbours and the left neighbour is dead.
-
-## Bibliography
 
 [^1]: Wolfram, S. 1983. 'Statistical mechanics of cellular automata'. _Rev. Mod. Phys._, 55(3). pp. 601-644.
