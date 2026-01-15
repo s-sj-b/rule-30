@@ -1,7 +1,7 @@
 # Rule 30
 
-Rule 30 is a one-dimensional cellular automaton in which cell states evolve based on the current state of their three-cell-wide neighborhood^[1]^.
-Cell states evolve according to the following rules^[1]^:
+Rule 30 is a one-dimensional cellular automaton in which cell states evolve based on the current state of their three-cell-wide neighborhood[^1].
+Cell states evolve according to the following rules:
 
 | Neighbourhood | Denary | 'Live' Neighbours | Next State |
 | ------------- | ------ | ----------------- | ---------- |
@@ -24,4 +24,4 @@ This program implements a simplified version of the above ruleset, checking only
 
 ## Bibliography
 
-1. Wolfram, S. 1983. 'Statistical mechanics of cellular automata'. _Rev. Mod. Phys._, 55(3). pp. 601-644.
+[^1]: Wolfram, S. 1983. 'Statistical mechanics of cellular automata'. _Rev. Mod. Phys._, 55(3). pp. 601-644.
